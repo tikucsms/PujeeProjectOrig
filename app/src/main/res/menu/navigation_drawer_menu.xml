@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_menu_home"
+            android:icon="@mipmap/ic_menu_home"
+            android:title="Нүүр"/>
+    </group>
+    <group
+        android:id="@+id/nav_group_0"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_menu_my_details"
+            android:icon="@mipmap/ic_menu_userdata"
+            android:title="Хувийн мэдээлэл"/>
+
+        <item
+            android:id="@+id/item_menu_categories"
+            android:icon="@mipmap/ic_menu_store"
+            android:title="Катогори"/>
+
+        <item
+            android:id="@+id/item_menu_events_notes"
+            android:icon="@mipmap/ic_menu_event"
+            android:title="Тэмдэглэл"/>
+    </group>
+
+
+    <group
+        android:id="@+id/nav_group_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_menu_stat_exp"
+            android:icon="@mipmap/ic_menu_exp"
+            android:title="Summary of costs"/>
+        <item
+            android:id="@+id/item_menu_stat_fuel"
+            android:icon="@mipmap/ic_menu_fuel"
+            android:title="Consumption"/>
+        <item
+            android:id="@+id/item_menu_graph"
+            android:icon="@mipmap/ic_menu_graph"
+            android:title="Graph"/>
+        <item
+            android:id="@+id/item_menu_report_expenses"
+            android:icon="@mipmap/ic_cat_24"
+            android:title="Create Report"/>
+    </group>
+
+
+    <group android:id="@+id/nav_group_2">
+        <item
+            android:id="@+id/item_menu_settings"
+            android:icon="@mipmap/ic_menu_settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/item_menu_ce"
+            android:icon="@mipmap/ic_menu_pro"
+            android:title="Car Expenses"/>
+    </group>
+</menu>
